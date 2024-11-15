@@ -1,3 +1,25 @@
+## Latest Version 1.10.0
+> on 2025-11-13
+
+* **FEAT**: 支持 2025年 的节假日
+
+## Version 1.9.2
+> on 2024-09-16
+
+* **FIX**: 修正 2025年 元旦调休标记不正确的问题，thanks @Andrea-Chenjia-Pan
+
+## Version 1.9.1
+> on 2024-02-19
+
+* **FIX**: 修正 2024年 中秋调休标记不正确的问题，thanks @xiaomingtt
+
+## Version 1.9.0
+> on 2023-10-25
+
+* **FEAT**: 支持 2024年 的节假日
+* **FEAT**: 支持 Python3.12, 移除 Python3.7 的支持
+  - 注：对低版本，本库依然可以使用 wheel 包进行安装，但不保证能正常工作
+
 ## Version 1.8.1
 > on 2023-07-03
 
@@ -5,7 +27,7 @@
 * **FEAT**: `get_workdays` 函数新增 `include_weekends` 筛选，该筛选关闭后会过滤掉调休的周末，thanks @Dragon-GCS #104
 * **CHORE**: 更新项目开发依赖
 
-## Latest Version 1.8.0
+## Version 1.8.0
 > on 2022-12-09
 
 * **FEAT**: 支持 2023年 的节假日
